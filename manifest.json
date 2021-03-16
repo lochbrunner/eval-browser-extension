@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "DummyDownload",
+    "version": "1.0",
+    "description": "Downloads dummy text file from site.",
+    "icons": {
+        "48": "icons/download-48.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "48": "icons/download-48.png"
+        },
+        "default_title": "Download dummy"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    }
+}
